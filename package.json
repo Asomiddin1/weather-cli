@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "weather-project",
   "main": "index.js",
+  "type": "module",
+
   "scripts": {
     "start": "node index.js",
-    "dev":"nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "Asomiddin",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
   }
 }
